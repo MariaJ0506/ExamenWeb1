@@ -1,0 +1,206 @@
+:root{
+    --fondo_01: #1E8BC3;
+    --fondo_02: #F86924;
+    --fondo_03: #FF9F00;
+    --fondo_04: #35BC7A;
+    --fondo_05: #222222;
+    --fondo_06: #F05A49;
+    --fondo_07: #464646;
+
+    --linea_01: 1px solid #000000;
+}
+
+body{
+    background-color: var(--fondo_07);
+    background-image: url("../Lab_1_MJ/Style/Image/reunion_personas.webp");
+    padding: 15px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    flex: 1;
+    text-align: center;
+    color: white;
+    background-color: #222222;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    background-color: var(--fondo_05);
+}
+
+.buttons button:nth-child(1) {color: var(--fondo_01);}
+
+.buttons button:nth-child(2) {color: var(--fondo_02);}
+
+.buttons button:nth-child(3) {color: var(--fondo_03);}
+
+.buttons button:nth-child(4) {color: var(--fondo_04);}
+
+.buttons button:nth-child(5) {color: var(--fondo_06);}
+
+.buttons button:nth-child(6) {color: var(--fondo_03);}
+
+.content {
+    text-align: center;
+}
+
+.image {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 1px solid #333;
+}
+
+.box1{
+    
+    background-color: var(--fondo_02);
+    border: var(--fondo_01);
+
+    
+    padding: 15px;
+
+    
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1 pre{
+    
+    background-color:  var(--fondo_04);
+    border: var(--fondo_01);
+    border-radius: 15px;
+
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.col{
+    border: var(--linea_01);
+    flex: 1;
+    padding: 15px;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .box1{
+        background-color: var(--fondo_04);
+        text-align: center;
+    }
+
+    .box1 pre{
+        background-color: var(--fondo_04);
+        text-align: right;
+    }
+
+    .col{
+        flex-direction: column;
+    }    
+}
+
+@media screen and (max-width: 500px) {
+    .box1 pre{
+        display: none;
+    }
+
+    .col a{
+        display: block;
+        padding: 5px 12px;
+        background-color: #ddd;
+        border: 1px solid #333;
+    }
+
+    h3{
+        text-align: right;
+    }
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.card {
+    background-color: #4CAF50; 
+    padding: 20px;
+    width: 30%;
+    color: white;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+}
+
+.card h2, .card p {
+    margin: 0;
+    padding: 0;
+}
+
+.card a.card-link {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    position: relative;
+    top: 20px; 
+    float: right;
+}
+
+#card1 {
+    background-color: #4CAF50; 
+}
+
+#card2 {
+    background-color: #FF9800; 
+}
+
+#card3 {
+    background-color: #FFC107; 
+}

@@ -1,0 +1,2 @@
+Un mediaquery se adapta a la pantalla que estamos creando, cambia de color segun el tamaño de la hoja del navegador.
+Se adabta tambien a los colores segun el dispositivo en el que se vea.  

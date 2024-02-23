@@ -1,0 +1,88 @@
+:root{
+    --fondo_01: #ffffff;
+    --fondo_02: #8cbee8;
+    --fondo_03: #f5833c;
+    --fondo_04: #e7c958;
+
+    --linea_01: 1px solid #000000;
+}
+
+body{
+    background-color: var(--fondo_01);
+}
+
+.box1{
+    /*Formato general de la caja.*/
+    background-color: var(--fondo_02);
+    border: var(--fondo_01);
+
+    /*Formato del texto.*/
+    padding: 15px;
+
+    /*Dimensiones de la caja.*/
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1 pre{
+    /* Formato generla de la caja.*/
+    background-color:  var(--fondo_04);
+    border: var(--linea_01);
+    border-radius: 15px;
+
+    /* Formato de texto.*/
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.col{
+    border: var(--linea_01);
+    flex: 1;
+    padding: 15px;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .box1{
+        background-color: var(--fondo_03);
+        text-align: center;
+    }
+
+    .box1 pre{
+        background-color: var(--fondo_02);
+        text-align: right;
+    }
+
+    .col{
+        flex-direction: column;
+    }    
+    
+}
+
+@media screen and (max-width: 500px) {
+    .box1 pre{
+        display: none;
+    }
+
+    .col a{
+        display: block;
+        padding: 5px 12px;
+        background-color: #ddd;
+        border: 1px solid #333;
+    }
+
+    h3{
+        text-align: right;
+    }
+}
+

@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'Fuente1';
+    src: url('Styles/Fonts/Lato/Lato-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fuente2';
+    src: url('Styles/Fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fuente3';
+    src: url('Styles/Fonts/Fredoka/Fredoka-VariableFont_wdth\,wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fuente4';
+    src: url('Styles/Fonts/Protest_Riot/ProtestRiot-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Title {
+    text-align: center;
+    flex-grow: 1;
+    margin-left: 490px;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #003741;
+    color: white;
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+    margin: 30px;
+}
+
+.buttons a {
+    background-color: #016685;
+    color: white;
+    text-decoration: none; 
+    padding: 9px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.buttons a:hover {
+    background-color: #5bb3ce;
+    transform: scale(1.1);
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.content{
+    margin-top: 80px;
+}
+
+h1 {
+    font-family: 'Fuente2', sans-serif ;
+}
+
+h2 {
+    font-family: 'Fuente3', sans-serif ;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Fuente2', sans-serif ;
+}
+
+p {
+    font-family: 'Fuente4', sans-serif ;
+}
+
+body{
+    background-color: rgb(190, 224, 255);
+    margin: 0;
+    padding: 15px;
+
+    
+}
+
+.lable{
+    text-align: center;
+}
+
+.NumFuente{
+
+    font-family: sans-serif;
+}
+
+.FrogDescription {
+    display: flex; 
+    align-items: center; 
+    margin-top: 50px;
+    margin-left:50px ;
+    max-width: 70%;
+    
+}
+
+.Frog {
+    margin: 1%;
+    max-width: 400px; 
+    margin-right: 20px; 
+}
+
+.MemeDescription{
+    display: flex; 
+    align-items: center; 
+    margin-top: 50px;
+    margin-left:30% ;
+    max-width: 70%;
+    padding-bottom: 90px;
+    
+}
+
+.text{
+    text-align: center;
+}
+
+.Calaca{
+    max-width: 400px;
+    margin: 5%;
+}
+
+:root{
+    --principal: #E50012;
+    --color-01:#0113E6;
+    --color-02:#D95525;
+    --fondo-01:#BF0404;
+    --fondo-02:#730202;
+    --fondo-03:#0D0D0D;
+    --texto-01:#000000;
+    --texto-02:#FFFFFF;
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: #003741;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.icon:hover {
+    background-color: #00f;
+}
+
+.shadow1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.shadow2 {
+    text-shadow: -2px -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.shadow3 {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+h1:hover {
+    text-shadow: none;
+}
+
+

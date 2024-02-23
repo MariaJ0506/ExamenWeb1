@@ -1,0 +1,90 @@
+:root{
+    --fondo_01: #1E8BC3;
+    --fondo_02: #F86924;
+    --fondo_03: #FF9F00;
+    --fondo_04: #35BC7A;
+    --fondo_05: #222222;
+    --fondo_06: #F05A49;
+    --fondo_07: #464646;
+
+    --linea_01: 1px solid #000000;
+}
+
+body{
+    background-color: var(--fondo_07);
+    background-image: url("../Lab_1_MJ/Style/Image/reunion_personas.webp");
+    padding: 15px;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.col{
+    border: var(--linea_01);
+    flex: 1;
+    padding: 15px;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .box1{
+        background-color: var(--fondo_04);
+        text-align: center;
+    }
+
+    .box1 pre{
+        background-color: var(--fondo_04);
+        text-align: right;
+    }
+
+    .col{
+        flex-direction: column;
+    }    
+    
+}
+
+@media screen and (max-width: 500px) {
+    .box1 pre{
+        display: none;
+    }
+
+    .col a{
+        display: block;
+        padding: 5px 12px;
+        background-color: #ddd;
+        border: 1px solid #333;
+    }
+
+    h3{
+        text-align: right;
+    }
+}
+
+.botton{
+    color: var(--fondo_01);
+}
+
+.botton2{
+    color: var(--fondo_02);
+}
+
+.botton3{
+    color: var(--fondo_03);
+}
+
+.botton4{
+    color: var(--fondo_04);
+}
+
+.botton5{
+    color: var(--fondo_06);
+}
+
+.botton6{
+    color: var(--fondo_01);
+}

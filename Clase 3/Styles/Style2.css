@@ -1,0 +1,17 @@
+:root{
+    --fondo_01: #ffffff;
+    --fondo_02: #8cbee8;
+    --fondo_03: #f5833c;
+    --fondo_04: #e7c958;
+
+    --linea_01: 1px solid #000000;
+}
+
+body{
+    padding: 15px;
+}
+
+div{
+    border: var(--linea_01);
+    padding: 10px;
+}

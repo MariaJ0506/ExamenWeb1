@@ -1,0 +1,20 @@
+:root{
+    --primary: #1B2E66;
+    --orange: #D6731D;
+}
+
+body{
+    font-family: arial,sans-serif;
+    font-weight: 200;
+    color: var(--primary);
+    background-color: var(--orange);
+}
+
+p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: aliceblue;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
