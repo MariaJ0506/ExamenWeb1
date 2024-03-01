@@ -1,0 +1,97 @@
+:root{
+    --principal: #7adacd;
+    --color-01:#0113E6;
+    --color-02:#D95525;
+    --fondo-01:#BF0404;
+    --fondo-02:#730202;
+    --fondo-03:#0D0D0D;
+    --texto-01:#000000;
+    --texto-02:#FFFFFF;
+    font-size: 14px;
+}
+
+body{
+    background-color:#7adacd
+}
+
+
+@font-face {
+    font-family: 'Fuente1';
+    src: url('Styles/Fonts/Lato/Lato-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fuente2';
+    src: url('Styles/Fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fuente3';
+    src: url('Styles/Fonts/Fredoka/Fredoka-VariableFont_wdth\,wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fuente4';
+    src: url('Styles/Fonts/Protest_Riot/ProtestRiot-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fuente5';
+    src: url('Fonts/Noto_Sans_Buhid/NotoSansBuhid-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.content{
+    display: flex;
+}
+
+.Title {
+    text-align: center;
+    flex-grow: 1;
+    margin-left: 490px;
+}
+
+h1 {
+    text-align: center;
+    justify-content: left;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: black;
+    font-family: 'Fuente2', sans-serif ;
+}
+
+h2 {
+    text-align: center;
+    justify-content: right;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: black;
+    font-family: 'Fuente3', sans-serif ;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Fuente2', sans-serif ;
+}
+
+p {
+    font-family: 'Fuente4', sans-serif ;
+}
+
+.lable{
+    text-align: center;
+}
+
+.NumFuente{
+
+    font-family: sans-serif;
+}
